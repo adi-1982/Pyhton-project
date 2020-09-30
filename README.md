@@ -45,7 +45,7 @@ def gradient_descent(X, y, theta, alpha, epsilon, flag):
 
 
 
-
+#main
 def main(x_training, y_training):
     x_training = x_training.T
     y_training = y_training.T

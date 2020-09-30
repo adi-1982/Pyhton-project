@@ -1,4 +1,5 @@
-# Pyhton-project
+# Python-project
+#Cost function 
 def compute_cost(X, y, theta):
     J = 0
     A = np.subtract(np.dot(X, theta), y)
@@ -6,7 +7,7 @@ def compute_cost(X, y, theta):
     return J[0, 0]
 
 
-
+#gradient descent
 
 def gradient_descent(X, y, theta, alpha, epsilon, flag):
     J_hist = []
@@ -44,7 +45,7 @@ def gradient_descent(X, y, theta, alpha, epsilon, flag):
 
 
 
-
+#main
 def main(x_training, y_training):
     x_training = x_training.T
     y_training = y_training.T

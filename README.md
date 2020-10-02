@@ -1,4 +1,4 @@
-# Python-project
+# Python-project - An Awesome Project
 #Cost function 
 def compute_cost(X, y, theta):
     J = 0
